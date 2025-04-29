@@ -1,8 +1,6 @@
 //Score save
 
 let score = JSON.parse(localStorage.getItem('score'))
-//parse преобразовывает строку обратно в объект
-//Это лок. хранилище позволяет нам сохранять резльтат навсегда
 
 if(!score) {
    score = {
